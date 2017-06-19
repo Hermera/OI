@@ -39,9 +39,6 @@ void upd(int &x, int y) {
 }
 
 int main() {
-	freopen("F.in", "r", stdin);
-	freopen("F.out", "w", stdout);
-
 	scanf("%d", &n);
 	for(int i = 1; i <= n; ++i)
 		a[i].init();

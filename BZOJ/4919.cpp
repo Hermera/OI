@@ -106,9 +106,6 @@ node *merge(node *o1, node *o2, int l, int r, int w1, int w2) {
 
 
 int main() {
-	freopen("C.in", "r", stdin);
-	freopen("C.out", "w", stdout);
-
 	n = read();
 	for(int i = 1; i <= n; ++i)
 		v[i] = h[i] = read(), p[i] = read();
